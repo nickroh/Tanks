@@ -84,6 +84,6 @@ public class TankHealth : MonoBehaviour
         m_ExplosionAudio.Play();
 
         // Turn the tank off.
-        gameObject.SetActive (false);
+        gameObject.SetActive (false );
     }
 }
